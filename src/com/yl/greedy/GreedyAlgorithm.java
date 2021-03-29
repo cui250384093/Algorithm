@@ -41,7 +41,8 @@ public class GreedyAlgorithm {
         broadcasts.put("k4", broadcast4);
         broadcasts.put("k5", broadcast5);
 
-        String[] cities = new String[]{"北京", "上海", "天津", "广州", "成都", "杭州", "大连", "深圳", "济南"};
+        String[] cities = new String[]{"北京", "上海", "天津", "广州",  "深圳"};
+//        String[] cities = new String[]{"北京", "上海", "天津", "广州", "成都", "杭州", "大连", "深圳"};
         ArrayList<String> cityList = new ArrayList<>();
         Collections.addAll(cityList, cities);
 
