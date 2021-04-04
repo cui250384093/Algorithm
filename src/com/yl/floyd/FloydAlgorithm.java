@@ -24,6 +24,7 @@ public class FloydAlgorithm {
         };
 
         Graph graph = new Graph(vertex, distance);
+        graph.floyd();
         graph.show();
 
 
