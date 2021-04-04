@@ -1,6 +1,5 @@
 package com.yl.prim;
 
-import lombok.Data;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -11,7 +10,6 @@ import java.util.Arrays;
  * @date 3/29/21 - 10:02 AM
  */
 
-@Data
 public class Graph {
 
     int vertexNum;
@@ -34,6 +32,30 @@ public class Graph {
         for (int[] ints : weight) {
             System.out.println(Arrays.toString(ints));
         }
+    }
+
+    public int getVertexNum() {
+        return vertexNum;
+    }
+
+    public void setVertexNum(int vertexNum) {
+        this.vertexNum = vertexNum;
+    }
+
+    public char[] getData() {
+        return data;
+    }
+
+    public void setData(char[] data) {
+        this.data = data;
+    }
+
+    public int[][] getWeight() {
+        return weight;
+    }
+
+    public void setWeight(int[][] weight) {
+        this.weight = weight;
     }
 
     /**
